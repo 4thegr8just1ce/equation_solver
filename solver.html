@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-wf-site="528efa5e500344894c000156">
+  <head>
+    <meta charset="utf-8">
+    <title>govnocalc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/govnocalc.webflow.css">
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/govnokod.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu:300,400,500,700"]
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  </head><body>
+  <div>
+    <div class="w-container header">
+      <h1>WELCOME TO ULTRA MEGA EQUATION SOLVER</h1>
+    </div>
+  </div>
+  <div>
+    <div class="w-container solver">
+      <div class="w-row">
+        <div class="w-col w-col-6 equationstyle">
+          <input id = 'a' type='text' class='var1'>
+          <div class="textstyle equation">X^2 +</div>
+          <input id = 'b' type='text' class='var1'>
+          <div class="textstyle equation">x +</div>
+          <input id = 'c' type='text' class='var1'>
+          <div class="textstyle equation">= 0</div>
+        </div>
+        <div class="w-col w-col-2 w-clearfix bottoncolumn">
+          <div class="button">
+            <div class="textstyle solvetext">Solve</div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <p class="textstyle answer"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="js/webflow.js"></script>
+</body>
+</html>
