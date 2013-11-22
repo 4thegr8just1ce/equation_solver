@@ -1,0 +1,97 @@
+body {
+  background-color: #e8fff5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+.var1{
+  width: 40px;
+  height: 30px;
+  border: 1px solid gray;
+  font-size: 23px;
+  font-weight: 800;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  background-color: #e8fff5;
+}
+h1 {
+  margin: 41px 0px 57px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 49px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 4px 15px;
+  float: right;
+  border: 2px dashed dimgray;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header {
+  text-align: center;
+}
+.solver {
+  text-align: center;
+}
+.textstyle {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.textstyle.equation {
+  display: inline-block;
+}
+.textstyle.answer {
+  margin-top: 20px;
+}
+.textstyle.solvetext {
+  margin-top: 2px;
+  color: #0087a8;
+}
+.equationstyle {
+  padding-top: 21px;
+}
