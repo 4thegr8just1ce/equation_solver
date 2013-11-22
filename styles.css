@@ -1,0 +1,20 @@
+.var1 {
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid white;
+    }
+    .var2{
+    width: 206px;
+    height: 100px;
+    border: 1px solid white;
+    background: transparent;
+    font: 40pt Comic Sans, Comic Sans MS, cursive;
+    color: red;
+    }
+    .var3{
+    font: 30pt Comic Sans, Comic Sans MS, cursive;
+    color: white;}
+    .var4{
+    font: 12pt Comic Sans, Comic Sans MS, cursive;
+    color: white;}
