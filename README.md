@@ -2,4 +2,4 @@ equation_solver
 ===============
 
 js-based equation solver
-includes html, css and jQuery
+includes html, css made in Webflow, jQuery
